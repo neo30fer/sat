@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sat.Recruitment.Common\Sat.Recruitment.Common.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Data\Sat.Recruitment.Data.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Domain\Sat.Recruitment.Domain.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Dto\Sat.Recruitment.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
